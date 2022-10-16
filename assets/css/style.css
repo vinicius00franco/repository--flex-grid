@@ -380,7 +380,11 @@ body {
         grid-column: span 4;
     }
 
-    .cartao--destaque {
+    .titulo-pagina {
+        grid-area: titulo-pagina;
+    }
+
+    .destaque-video {
         grid-area: destaque-video;
     }
 
@@ -388,20 +392,16 @@ body {
         grid-area: videos-recentes;
     }
 
-    .titulo-pagina {
-        grid-area: titulo-pagina;
-    }
-
     .secao-videos {
         grid-area: secao-videos;
     }
 
-    .destaque-produto {
-        grid-area: destaque-produtos;
-    }
-
     .produtos-recentes {
         grid-area: produtos-recentes;
+    }
+
+    .destaque-produtos {
+        grid-area: destaque-produtos;
     }
     
     .secao-produtos {
